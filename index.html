@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>web ver.</title>
+		<script src="js/angular.min.js"></script>
+		<script src="script.js"></script>
+		<script src="MyDireModule.js"></script>
+	</head>
+
+
+	<body  ng-app="Basic_App" >
+		<div  ng-controller="TopCtrl">
+
+		
+		
+		
+			{{tdata}}
+			<br>
+			<my-customer-Url></my-customer-Url>
+
+			<my-directive    sss="123"></my-directive >
+			<div my-directive template="templs.html>tpl" x="60" xasas="60"></div>
+			<div my-directive template="tpl" x="60" xasas="60"></div>
+			<div my-directive template="stpl" x="60" xasas="60"></div>
+			<div my-directive template="sideTemps.html>stpl" x="60" xasas="60"></div>
+		</div>
+	</body>
+</html>
